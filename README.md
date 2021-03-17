@@ -53,6 +53,14 @@ Stroke terminators are flat, not round.
     
     Note the flat-round strokes and the *actual* italic!
 
+-   Courier 10 Pitch BT, courtesy Bitstream:
+
+    ![Courier 10 Pitch BT](images/compare-courier-10-pitch-bt.png)
+
+-   Courier Code, same as above, with minor modifications:
+
+    ![Courier Code](images/compare-courier-code.png)
+
 ## About (IBM) Courier
 
 [Yeah, just read the Wikipedia.](https://en.wikipedia.org/wiki/Courier_%28typeface%29)
