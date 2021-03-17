@@ -57,7 +57,8 @@ Stroke terminators are flat, not round.
 
     ![Courier 10 Pitch BT](images/compare-courier-10-pitch-bt.png)
 
--   **Courier Code**, same as Courier 10 Pitch BT with minor modifications:
+-   [**Courier Code**](https://fontlibrary.org/en/font/courier-code),
+    same as Courier 10 Pitch BT with minor modifications:
 
     ![Courier Code](images/compare-courier-code.png)
     
