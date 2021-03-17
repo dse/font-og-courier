@@ -50,6 +50,8 @@ Stroke terminators are flat, not round.
 -   Courier Prime, purpose-built for screenplays:
 
     ![Courier Prime](images/compare-courier-prime.png)
+    
+    Note the flat-round strokes and the *actual* italic!
 
 ## About (IBM) Courier
 
