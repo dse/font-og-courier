@@ -32,15 +32,15 @@ changes FontForge may have made in the process of converting them.
 ## Compared with Other Couriers
 
 IBM Courier is slightly thicker than Courier New; but not as thick as,
-say, Bitstream's Courier 10 Pitch BT or Courier Prime.
+say, Courier Prime or Bitstream's Courier 10 Pitch BT.
 
 Stroke terminators are flat, not round.
 
-![Compare IBM Courier](images/compare-ibm-courier.png)
+![IBM Courier, used in business correspondence for decades.](images/compare-ibm-courier.png)
 
-![Compare Courier New](images/compare-courier-new.png)
+![Courier New, used on computer screens for decades.](images/compare-courier-new.png)
 
-![Compare Courier Prime](images/compare-courier-prime.png)
+![Courier Prime, purpose-built for screenplays.](images/compare-courier-prime.png)
 
 ## About (IBM) Courier
 
