@@ -39,25 +39,25 @@ BT](https://www.myfonts.com/fonts/bitstream/courier-10-pitch/).
 
 Stroke terminators are flat, not round.
 
--   IBM Courier, used in business correspondence for decades:
+-   **IBM Courier**, used in business correspondence for decades:
 
     ![IBM Courier](images/compare-ibm-courier.png)
 
--   Courier New, used on computer screens for decades:
+-   **Courier New**, used on computer screens for decades:
 
     ![Courier New](images/compare-courier-new.png)
 
--   Courier Prime, purpose-built for screenplays:
+-   **Courier Prime**, purpose-built for screenplays:
 
     ![Courier Prime](images/compare-courier-prime.png)
     
     Note the flat-round strokes and the *actual* italic!
 
--   Courier 10 Pitch BT, courtesy Bitstream:
+-   **Courier 10 Pitch BT**, courtesy Bitstream:
 
     ![Courier 10 Pitch BT](images/compare-courier-10-pitch-bt.png)
 
--   Courier Code, same as above, with minor modifications:
+-   **Courier Code**, same as Courier 10 Pitch BT with minor modifications:
 
     ![Courier Code](images/compare-courier-code.png)
 
