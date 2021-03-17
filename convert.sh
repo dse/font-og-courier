@@ -3,11 +3,14 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
+mkdir -p sfd
+
 ffconvert --font-name='IBMCourier'              \
           --full-name='IBM Courier'             \
           --family-name='IBMCourier'            \
           --weight='Regular'                    \
           sources/cour.pfa                      \
+          sfd/IBM-Courier.sfd                   \
           fonts/IBM-Courier.svg                 \
           fonts/IBM-Courier.ttf                 \
           fonts/IBM-Courier.otf                 \
@@ -18,6 +21,7 @@ ffconvert --font-name='IBMCourier-Bold'         \
           --family-name='IBMCourier'            \
           --weight='Bold'                       \
           sources/courb.pfa                     \
+          sfd/IBM-Courier-Bold.sfd              \
           fonts/IBM-Courier-Bold.svg            \
           fonts/IBM-Courier-Bold.ttf            \
           fonts/IBM-Courier-Bold.otf            \
@@ -28,6 +32,7 @@ ffconvert --font-name='IBMCourier-Italic'       \
           --family-name='IBMCourier'            \
           --weight='Regular'                    \
           sources/couri.pfa                     \
+          sfd/IBM-Courier-Italic.sfd            \
           fonts/IBM-Courier-Italic.svg          \
           fonts/IBM-Courier-Italic.ttf          \
           fonts/IBM-Courier-Italic.otf          \
@@ -38,6 +43,7 @@ ffconvert --font-name='IBMCourier-BoldItalic'   \
           --family-name='IBMCourier'            \
           --weight='Bold'                       \
           sources/courbi.pfa                    \
+          sfd/IBM-Courier-Bold-Italic.sfd       \
           fonts/IBM-Courier-Bold-Italic.svg     \
           fonts/IBM-Courier-Bold-Italic.ttf     \
           fonts/IBM-Courier-Bold-Italic.otf     \
