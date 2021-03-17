@@ -7,7 +7,7 @@ mkdir -p sfd
 
 ffconvert --font-name='IBMCourier'              \
           --full-name='IBM Courier'             \
-          --family-name='IBMCourier'            \
+          --family-name='IBM Courier'            \
           --weight='Regular'                    \
           sources/cour.pfa                      \
           sfd/IBM-Courier.sfd                   \
@@ -18,7 +18,7 @@ ffconvert --font-name='IBMCourier'              \
           fonts/IBM-Courier.woff2
 ffconvert --font-name='IBMCourier-Bold'         \
           --full-name='IBM Courier Bold'        \
-          --family-name='IBMCourier'            \
+          --family-name='IBM Courier'            \
           --weight='Bold'                       \
           sources/courb.pfa                     \
           sfd/IBM-Courier-Bold.sfd              \
@@ -29,7 +29,7 @@ ffconvert --font-name='IBMCourier-Bold'         \
           fonts/IBM-Courier-Bold.woff2
 ffconvert --font-name='IBMCourier-Italic'       \
           --full-name='IBM Courier Italic'      \
-          --family-name='IBMCourier'            \
+          --family-name='IBM Courier'            \
           --weight='Regular'                    \
           sources/couri.pfa                     \
           sfd/IBM-Courier-Italic.sfd            \
@@ -40,7 +40,7 @@ ffconvert --font-name='IBMCourier-Italic'       \
           fonts/IBM-Courier-Italic.woff2
 ffconvert --font-name='IBMCourier-BoldItalic'   \
           --full-name='IBM Courier Bold Italic' \
-          --family-name='IBMCourier'            \
+          --family-name='IBM Courier'            \
           --weight='Bold'                       \
           sources/courbi.pfa                    \
           sfd/IBM-Courier-Bold-Italic.sfd       \

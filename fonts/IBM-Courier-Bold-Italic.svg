@@ -9,7 +9,7 @@ Copyright (c) IBM Corporation 1990,1991.
 <defs>
 <font id="IBMCourier-BoldItalic" horiz-adv-x="600" >
   <font-face 
-    font-family="IBMCourier"
+    font-family="IBM Courier"
     font-weight="700"
     font-style="italic"
     font-stretch="normal"
