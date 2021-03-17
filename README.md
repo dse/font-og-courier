@@ -61,7 +61,7 @@ Stroke terminators are flat, not round.
 
     ![Courier Code](images/compare-courier-code.png)
     
-    Note the lowercase ell (`l`) and the digit zero (`0`).
+    Note the lowercase ell (`l`) and the digits one (`1`) and zero (`0`).
 
 ## About (IBM) Courier
 
