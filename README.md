@@ -1,7 +1,9 @@
 # IBM Courier
 
-IBM made available its font Courier as a PostScript Type 1 font under
-the [IBM/MIT X Consortium Courier Typefont agreement](COPYRIGHT).
+IBM made available its digital implementation of its commissioned
+typeface, Courier, as a PostScript Type 1 font under the [IBM/MIT X
+Consortium Courier Typefont agreement](COPYRIGHT), a permissive
+license.
 
 This distribution of IBM Courier retains the original copyright, and
 includes along with the original fonts, conversions of them to these
