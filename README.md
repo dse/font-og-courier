@@ -60,6 +60,8 @@ Stroke terminators are flat, not round.
 -   **Courier Code**, same as Courier 10 Pitch BT with minor modifications:
 
     ![Courier Code](images/compare-courier-code.png)
+    
+    Note the lowercase ell (`l`) and the digit zero (`0`).
 
 ## About (IBM) Courier
 
