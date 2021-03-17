@@ -1,7 +1,7 @@
 # IBM Courier
 
-IBM made available its digital implementation of its commissioned
-typeface, Courier, as a PostScript Type 1 font under the [IBM/MIT X
+IBM made this digital implementation of its commissioned typeface,
+Courier, available as a PostScript Type 1 font under the [IBM/MIT X
 Consortium Courier Typefont agreement](COPYRIGHT), a permissive
 license.
 
@@ -21,4 +21,22 @@ IBM Courier is available in four weights:
 -   Bold
 -   Bold Italic
 
-A [CSS file](fonts/IBM-Courier.css) is also included.
+A [CSS file](fonts/IBM-Courier.css) for use on web sites is also
+included.
+
+I have not altered the fonts in any way, with the exception of any
+changes FontForge may have made in the process of converting them.
+
+## Compared with Other Couriers
+
+IBM Courier is slightly thicker than Courier New; but not as thick as,
+say, Bitstream's Courier 10 Pitch BT or Courier Prime.
+
+Stroke terminators are flat, not round.
+
+## About (IBM) Courier
+
+[Yeah, just read the Wikipedia.](https://en.wikipedia.org/wiki/Courier_%28typeface%29)
+
+Courier is not a registered trademark, though IBM is.  I'm only using
+the IBM name because it's... IBM's product.
