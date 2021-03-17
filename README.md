@@ -36,11 +36,17 @@ say, Courier Prime or Bitstream's Courier 10 Pitch BT.
 
 Stroke terminators are flat, not round.
 
-![IBM Courier, used in business correspondence for decades.](images/compare-ibm-courier.png)
+-   IBM Courier, used in business correspondence for decades:
 
-![Courier New, used on computer screens for decades.](images/compare-courier-new.png)
+    ![IBM Courier](images/compare-ibm-courier.png)
 
-![Courier Prime, purpose-built for screenplays.](images/compare-courier-prime.png)
+-   Courier New, used on computer screens for decades:
+
+    ![Courier New](images/compare-courier-new.png)
+
+-   Courier Prime, purpose-built for screenplays:
+
+    ![Courier Prime](images/compare-courier-prime.png)
 
 ## About (IBM) Courier
 
