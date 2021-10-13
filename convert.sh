@@ -5,6 +5,11 @@ set -o nounset
 
 mkdir -p sfd
 
+export SOURCE_DATE_EPOCH="$(date +%s)"
+if [[ "$USER" = "dembry" ]] || [[ "$USER" = "dse" ]] ; then
+    export USER="Darren Embry"
+fi
+
 ffconvert --font-name='IBMCourier'              \
           --full-name='IBM Courier'             \
           --family-name='IBM Courier'            \
