@@ -18,8 +18,8 @@ UniqueID: 263789
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1634084018
-ModificationTime: 1634084018
+CreationTime: 1634085839
+ModificationTime: 1634085839
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0 subtable"  } ['liga' ('latn' <'dflt' > ) ]
 DEI: 91125
+LangName: 1033 "" "" "Bold Italic"
 Encoding: AdobeStandard
 UnicodeInterp: none
 NameList: AGL For New Fonts
