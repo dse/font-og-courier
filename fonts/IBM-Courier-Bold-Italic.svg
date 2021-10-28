@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20200314 at Fri Feb 14 00:00:00 1992
+Created by FontForge 20201107 at Tue Oct 12 20:43:59 2021
  By Darren Embry
 Copyright (c) IBM Corporation 1990,1991.
 </metadata>
@@ -22,7 +22,7 @@ Copyright (c) IBM Corporation 1990,1991.
     bbox="-48 -288 860 839"
     underline-thickness="50"
     underline-position="-100"
-    slope="-16"
+    slope="-12"
     stemh=" 85 "
     stemv=" 87 "
     unicode-range="U+0020-FB04"
