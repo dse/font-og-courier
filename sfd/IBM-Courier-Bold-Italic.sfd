@@ -5,7 +5,7 @@ FamilyName: IBM Courier
 Weight: Bold
 Copyright: Copyright (c) IBM Corporation 1990,1991.
 Version: 001.003
-ItalicAngle: -12
+ItalicAngle: -16
 UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 800
@@ -18,8 +18,8 @@ UniqueID: 263789
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1634085839
-ModificationTime: 1634085839
+CreationTime: 1700268445
+ModificationTime: 1700269054
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -35,14 +35,15 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0 subtable"  } ['liga' ('latn' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "Bold Italic"
 Encoding: AdobeStandard
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
+WinInfo: 54 27 11
 BeginPrivate: 6
 BlueValues 33 [ -25 0 583 608 453 478 625 650 ]
 OtherBlues 27 [ 234 242 330 330 123 148 ]
@@ -3293,7 +3294,6 @@ SplineSet
  577 540 l 1
  471 540 l 1xe2
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" f i
 EndChar
 
 StartChar: fl
@@ -3331,7 +3331,6 @@ SplineSet
  292 359 l 1
  234 82 l 1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" f l
 EndChar
 
 StartChar: endash
@@ -6557,7 +6556,6 @@ SplineSet
  418 359 l 1
  361 82 l 1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" ff l
 EndChar
 
 StartChar: SF400000
@@ -9659,7 +9657,6 @@ SplineSet
  403 359 l 1
  266 359 l 1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" f f
 EndChar
 
 StartChar: ninesuperior
@@ -10841,7 +10838,6 @@ SplineSet
  660 540 l 1
  566 540 l 1xe4
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" ff i
 EndChar
 
 StartChar: lquoteright

@@ -18,8 +18,8 @@ UniqueID: 263788
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
-CreationTime: 1634085839
-ModificationTime: 1634085839
+CreationTime: 1700268445
+ModificationTime: 1700269076
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -35,6 +35,7 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0" { "'liga' Standard Ligatures in Latin lookup 0 subtable"  } ['liga' ('latn' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 Encoding: AdobeStandard
 UnicodeInterp: none
@@ -42,6 +43,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
+WinInfo: 54 27 11
 BeginPrivate: 6
 BlueValues 33 [ -25 0 583 608 453 478 625 650 ]
 OtherBlues 27 [ 238 246 330 330 123 148 ]
@@ -3276,7 +3278,6 @@ SplineSet
  469 545 l 1
  358 545 l 1xe180
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" f i
 EndChar
 
 StartChar: fl
@@ -3313,7 +3314,6 @@ SplineSet
  219 359 l 1
  219 82 l 1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" f l
 EndChar
 
 StartChar: endash
@@ -6521,7 +6521,6 @@ SplineSet
  345 358 l 1
  345 82 l 1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" ff l
 EndChar
 
 StartChar: SF400000
@@ -9595,7 +9594,6 @@ SplineSet
  329 359 l 1
  192 359 l 1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" f f
 EndChar
 
 StartChar: ninesuperior
@@ -10771,7 +10769,6 @@ SplineSet
  537 540 l 1
  445 540 l 1xe7
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 0 subtable" ff i
 EndChar
 
 StartChar: lquoteright
