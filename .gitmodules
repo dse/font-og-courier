@@ -1,0 +1,3 @@
+[submodule "xorg-ibm-type1"]
+	path = xorg-ibm-type1
+	url = https://gitlab.freedesktop.org/xorg/font/ibm-type1.git
