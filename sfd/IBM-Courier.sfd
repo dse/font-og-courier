@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1700268445
-ModificationTime: 1700272633
+ModificationTime: 1700346330
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,7 +43,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-Encoding: AdobeStandard
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -61,7 +61,7 @@ Erode 145 {
 50 0 dtransform dup mul exch dup mul add
 le{pop pop 1.0 1.0}{pop pop 0.0 1.5}ifelse}
 EndPrivate
-BeginChars: 586 474
+BeginChars: 587 475
 
 StartChar: space
 Encoding: 32 32 0
@@ -2276,17 +2276,17 @@ VStem: 275 50<47 563 563 563>
 LayerCount: 2
 Fore
 SplineSet
-107 597 m 1
- 325 611 l 1
- 325 47 l 1
- 499 47 l 1
- 499 0 l 1
- 101 0 l 1
- 101 47 l 1
- 275 47 l 1
- 275 563 l 1
- 112 551 l 1
- 107 597 l 1
+107 597 m 5
+ 325 611 l 5
+ 325 47 l 5
+ 499 47 l 5
+ 499 0 l 5
+ 101 0 l 5
+ 101 47 l 5
+ 275 47 l 5
+ 275 563 l 5
+ 112 551 l 5
+ 107 597 l 5
 EndSplineSet
 EndChar
 
@@ -12083,6 +12083,27 @@ LayerCount: 2
 Fore
 Refer: 90 122 N 1 0 0 1 0 0 2
 Refer: 127 729 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: l.coding
+Encoding: 586 -1 474
+Width: 600
+Flags: HW
+HStem: 0 47<101 275 325 499 101 275> 557 54
+VStem: 275 50<47 563 563 563>
+LayerCount: 2
+Fore
+SplineSet
+275 0 m 5
+ 499 0 l 1
+ 499 47 l 1
+ 325 47 l 1
+ 325 611 l 1
+ 107 597 l 1
+ 112 551 l 1
+ 275 563 l 1
+ 275 0 l 5
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

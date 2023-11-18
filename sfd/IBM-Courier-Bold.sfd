@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1700268445
-ModificationTime: 1700272662
+ModificationTime: 1700346425
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -43,13 +43,13 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-Encoding: AdobeStandard
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 243 27 11
+WinInfo: 297 27 11
 BeginPrivate: 6
 BlueValues 33 [ -25 0 583 608 453 478 625 650 ]
 OtherBlues 27 [ 238 246 330 330 123 148 ]
@@ -61,7 +61,7 @@ Erode 146 {
 87 0 dtransform dup mul exch dup mul add
 le{pop pop 1.0 1.0}{pop pop 0.0 1.5}ifelse}
 EndPrivate
-BeginChars: 586 474
+BeginChars: 587 475
 
 StartChar: space
 Encoding: 32 32 0
@@ -12061,11 +12061,32 @@ EndChar
 StartChar: zdotaccent
 Encoding: 585 380 473
 Width: 600
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 Refer: 90 122 N 1 0 0 1 0 0 2
 Refer: 127 729 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: l.coding
+Encoding: 586 -1 474
+Width: 600
+Flags: HW
+HStem: 0 82<88 256 343 511 88 256> 553 95 628 20G<343 343>
+VStem: 256 87<82 558 558 558>
+LayerCount: 2
+Fore
+SplineSet
+256 0 m 5
+ 511 0 l 1
+ 511 82 l 1
+ 343 82 l 1
+ 343 648 l 1
+ 92 631 l 1xf0
+ 100 548 l 1xd0
+ 256 558 l 1
+ 256 0 l 5
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
