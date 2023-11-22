@@ -12,14 +12,10 @@ def copyChar(font, sourceCharName, destCharName, encoding=-1):
         if encoding < 0:
             raise Exception("%s not found and no encoding specified" % destCharName)
         font.createChar(encoding, destCharName)
-    print(sourceCharName)
-    sourceChar = font[sourceCharName]
-    if not sourceChar:
+    if not (sourceCharName in font):
         raise Exception("%s not found" % sourceCharName)
-    print(destCharName)
+    sourceChar = font[sourceCharName]
     destChar = font[destCharName]
-    if not destChar:
-        raise Exception("%s not found" % destCharName)
     pen = destChar.glyphPen(replace=True)
     sourceChar.draw(pen)
     pen = None                  # finalize pen drawing
