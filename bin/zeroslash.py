@@ -9,12 +9,14 @@ import argparse
 
 def copyChar(font, sourceCharName, destCharName, encoding=-1):
     if not destCharName in font:
-        if encoding < 0
+        if encoding < 0:
             raise Exception("%s not found and no encoding specified" % destCharName)
         font.createChar(encoding, destCharName)
+    print(sourceCharName)
     sourceChar = font[sourceCharName]
     if not sourceChar:
         raise Exception("%s not found" % sourceCharName)
+    print(destCharName)
     destChar = font[destCharName]
     if not destChar:
         raise Exception("%s not found" % destCharName)
