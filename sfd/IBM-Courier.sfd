@@ -21,12 +21,13 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1700268445
-ModificationTime: 1700515710
-PfmFamily: 17
+ModificationTime: 1700687193
+PfmFamily: 49
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 90
 VLineGap: 0
+Panose: 2 6 5 9 0 2 0 0 0 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -41,15 +42,17 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+MacStyle: 0
 MarkAttachClasses: 1
 DEI: 91125
+LangName: 1033
 Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 297 27 11
+WinInfo: 0 27 11
 BeginPrivate: 6
 BlueValues 33 [ -25 0 563 588 430 455 606 631 ]
 OtherBlues 27 [ 234 243 330 330 128 153 ]

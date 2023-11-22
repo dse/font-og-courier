@@ -21,12 +21,13 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1700268445
-ModificationTime: 1700515635
+ModificationTime: 1700688964
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
 LineGap: 90
 VLineGap: 0
+Panose: 2 6 8 9 0 2 0 0 0 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -41,6 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+MacStyle: 3
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: Custom
