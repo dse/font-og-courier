@@ -32,6 +32,8 @@ def zeroSlashFont(source, dest):
 
     charName = args.char
     copyChar(font, charName, "zero", 48)
+    copyChar(font, "l.coding", "l", 108)
+    copyChar(font, "asciitilde.coding", "asciitilde", 126)
 
     if charName == "zerodot":
         font.familyname = "IBM Courier Zero Dot"
