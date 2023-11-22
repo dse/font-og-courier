@@ -1,8 +1,8 @@
 .PHONY: FORCE
 
-SFD_SOURCES    := sfd/IBM-Courier.sfd sfd/IBM-Courier-Italic.sfd sfd/IBM-Courier-Bold.sfd sfd/IBM-Courier-Bold-Italic.sfd
-SFD_ZERO_SLASH := $(patsubst sfd/%.sfd,sfd/zero-slash/%-zero-slash.sfd,$(SFD_SOURCES))
-SFD_ZERO_DOT   := $(patsubst sfd/%.sfd,sfd/zero-dot/%-zero-dot.sfd,$(SFD_SOURCES))
+SFD_SOURCES    := sfd/IBMCourier.sfd sfd/IBMCourier-Italic.sfd sfd/IBMCourier-Bold.sfd sfd/IBMCourier-BoldItalic.sfd
+SFD_ZERO_SLASH := $(patsubst sfd/IBMCourier%sfd,sfd/zero-slash/IBMCourierZeroSlash%sfd,$(SFD_SOURCES))
+SFD_ZERO_DOT   := $(patsubst sfd/IBMCourier%sfd,sfd/zero-dot/IBMCourierZeroDot%sfd,$(SFD_SOURCES))
 SFD            := $(SFD_SOURCES) $(SFD_ZERO_SLASH) $(SFD_ZERO_DOT)
 
 TTF     := $(patsubst sfd/%.sfd,fonts/%.ttf,$(SFD))
@@ -29,11 +29,11 @@ fonts/%.svg: sfd/%.sfd Makefile bin/convert.py
 fonts/%.otf: sfd/%.sfd Makefile bin/convert.py
 	bin/convert.py "$<" "$@"
 
-sfd/zero-dot/%-zero-dot.sfd: sfd/%.sfd Makefile bin/zeroslash.py
+sfd/zero-dot/IBMCourierZeroDot%sfd: sfd/IBMCourier%sfd Makefile bin/zeroslash.py
 	mkdir -p $(<D)
 	bin/zeroslash.py --char zerodot "$<" "$@.tmp.sfd"
 	mv "$@.tmp.sfd" "$@"
-sfd/zero-slash/%-zero-slash.sfd: sfd/%.sfd Makefile bin/zeroslash.py
+sfd/zero-slash/IBMCourierZeroSlash%sfd: sfd/IBMCourier%sfd Makefile bin/zeroslash.py
 	mkdir -p $(<D)
 	bin/zeroslash.py --char zeroslash "$<" "$@.tmp.sfd"
 	mv "$@.tmp.sfd" "$@"
