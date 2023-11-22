@@ -20,3 +20,6 @@ fonts/%.svg: sfd/%.sfd Makefile bin/convert.py
 	bin/convert.py "$<" "$@"
 fonts/%.otf: sfd/%.sfd Makefile bin/convert.py
 	bin/convert.py "$<" "$@"
+
+clean:
+	/bin/rm $(TTF) $(WOFF) $(WOFF2) $(SVG) $(OTF) >/dev/null 2>/dev/null || true
