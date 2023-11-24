@@ -1,72 +1,97 @@
 # IBM Courier
 
+This is IBM’s digital form of Courier, in TTF and other modern
+formats, with coding-friendly variants.
+
 ![IBM Courier](images/ibm-courier.png)
 
-IBM made this digital implementation of its commissioned typeface,
-Courier, available as a PostScript Type 1 font under the [IBM/MIT X
-Consortium Courier Typefont agreement](COPYRIGHT), a permissive
-license.
+IBM created a digitized version of Courier and gave the fonts in
+PostScript Type 1 format to the X Consortium for distribution under
+the permissive [IBM/MIT X Consortium Courier Typefont
+Agreement](COPYRIGHT).  **This package retains that copyright and
+distribution terms.**
 
-This distribution of IBM Courier retains the original copyright, and
-includes along with the original fonts, conversions of them to these
-modern formats:
+The slashed-zero and dotted-zero variants also contain the following
+coding-friendly features:
 
--   OpenType
--   TrueType
--   WOFF and WOFF2
--   SVG
+-   An altered lowercase “L”.
+-   A heightened tilde (“~”) for better visibility.
+-   Removed the fi, fl, ffi, ffl, and fff ligatures.
 
-IBM Courier is available in four weights:
+## What’s Included
+
+Weights included are the typical four:
 
 -   Regular
 -   Italic
 -   Bold
 -   Bold Italic
 
-A [CSS file](fonts/IBM-Courier.css) for use on web sites is also
-included.
+There are 12 fonts (individual weights and variants) in total.
 
-I have not altered the fonts in any way, with the exception of any
-changes FontForge may have made in the process of converting them.
+Formats are:
 
-## Compared with Other Couriers
+-   TTF
+-   OTF
+-   SVG
+-   WOFF
+-   WOFF2
 
-IBM Courier is slightly thicker than [Courier
-New](https://www.myfonts.com/fonts/mti/courier-new/); but not as thick
-as, say, [Courier Prime](https://quoteunquoteapps.com/courierprime/)
-or Bitstream's [Courier 10 Pitch
-BT](https://www.myfonts.com/fonts/bitstream/courier-10-pitch/).
+These fonts do not contain additional hinting.  Windows will render
+them differently from Courier New.
 
-Stroke terminators are flat, not round.
+Courier New also has significantly more comprehensive Unicode
+coverage.
 
--   **IBM Courier**, used in business correspondence for decades:
+## Why?
+
+I created this package because I wanted one that’s as faithful
+(presumably) to IBM’s original Courier as possible.
+
+## Versus Other Couriers
+
+Let’s compare IBM Courier with four other ones:
+
+-   IBM Courier, this Courier.
 
     ![IBM Courier](images/compare-ibm-courier.png)
 
--   **Courier New**, used on computer screens for decades:
-
+-   [Courier New](https://learn.microsoft.com/en-us/typography/font-list/courier-new),
+    supplied with Windows, a thinner and also flat-terminated Courier.
+    
     ![Courier New](images/compare-courier-new.png)
 
--   **Courier Prime**, purpose-built for screenplays:
+-   [Courier Prime](https://quoteunquoteapps.com/courierprime/) is a
+    thicker, flat/rounded variant.  The authors also provide
+    sans-serif variants, and it has an actual italic!
 
     ![Courier Prime](images/compare-courier-prime.png)
     
-    Note the flat-round strokes and the *actual* italic!
-
--   **Courier 10 Pitch BT**, courtesy Bitstream:
+-   Bitstream Courier 10 Pitch, a thicker, rounded variant, was also
+    provided to the X Consortium.
 
     ![Courier 10 Pitch BT](images/compare-courier-10-pitch-bt.png)
 
--   [**Courier Code**](https://fontlibrary.org/en/font/courier-code),
-    same as Courier 10 Pitch BT with minor modifications:
+-   [Courier Code](https://fontlibrary.org/en/font/courier-code)
+    is Bitstream’s variant with a few modifications for coding.
 
     ![Courier Code](images/compare-courier-code.png)
-    
-    Note the lowercase ell (`l`) and the digits one (`1`) and zero (`0`).
 
-## About (IBM) Courier
+## About
 
-[Yeah, just read the Wikipedia.](https://en.wikipedia.org/wiki/Courier_%28typeface%29)
+The fonts, as distributed with X11, already contained “hidden”
+slashed-zero and dotted-zero characters.  I created and added the
+altered lowercase “L” and hightened tilde, made the slashed and dotted
+zeroes the default in the coding variants, and removed the ligatures.
 
-Courier is not a registered trademark, though IBM is.  I'm only using
-the IBM name because it's... IBM's product.
+The “Courier” **name** and typeface **design** are in the public
+domain, though individual fonts (software implementations of that
+design) are available under varying licenses.
+
+## The Future
+
+I may add additional characters sporadically.
+
+## More Information, Just Because
+
+https://arquivo.pt/wayback/20160517191001/http://www.rolandstroud.com/downloads/essays/courierfonts.pdf
