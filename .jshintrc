@@ -1,0 +1,94 @@
+/*!
+ * .jshintrc --- Configuration file for JSHint, the JavaScript code
+ * quality checking tool.
+ *
+ * https://jshint.com/
+ *
+ * https://jshint.com/docs/options/ has complete documentation about
+ * all JSHint options.
+ *
+ * This configuration is for JavaScript files executed by the
+ * Node.js runtime.
+ *
+ * IF YOU ARE USING NODE 12.x --- change the "esversion" to 2019,
+ * as it only supports ECMAScript 10th edition.
+ */
+
+{
+   // ENFORCING OPTIONS
+   "bitwise":            true,       // prohibit bitwise operators: `& | ^ ~ << >> >>>`
+   "curly":              true,       // enforce use of curly brackets for all loops and conditionals
+   "eqeqeq":             true,       // prohibit use of `==` and `!=`; use `===` and `!==`
+   "esversion":          2020,       // ECMAScript 11, for Node.js 14.x.
+   "forin":              true,       // `for in` loops must filter items
+   "freeze":             true,       // prohibit extending or overwriting prototypes of native objects
+   "futurehostile":      true,       // warn about use of future reserved words
+   "latedef":            "nofunc",   // prohibit use of variables before they're defined; "nofunc" allows use of functions
+   "leanswitch":         true,       // prohibit unnecessary `switch` clauses
+   // "maxcomplexity":   0,          // cyclomatic complexity
+   // "maxdepth":        0,          // code nesting depth
+   // "maxerr":          50,         // number of warnings before jshint gives up
+   // "maxparams":       0,          // number of formal parameters for each function
+   // "maxstatements":   0,          // number of statements per function
+   "noarg":              true,       // prohibit `arguments.caller` and `arguments.callee`
+   "nocomma":            true,       // prohibit comma operator
+   "nonbsp":             true,       // warn about U+00A0 NO-BREAK SPACE characters
+   "nonew":              true,       // prohibit use of constructors entirely for side effects
+   "noreturnawait":      true,       // prohibit use of the unnecessary `return await x;` construct
+   "regexpu":            false,      // would warn about regexps without a /u flag
+   "shadow":             "inner",    // warn about variable shadowing in same scope
+   "singleGroups":       false,      // would prohibit unnecessary ( ) groups
+   "strict":             false,      // disable strict mode warnings
+   "trailingcomma":      false,      // would warn about arrays and objects without trailing commas
+   "undef":              true,       // prohibit use of variables not explicitly declared
+   "unused":             "vars",     // warn about unused variables (not function parameters)
+   "varstmt":            true,       // prohibit `var` statements; use `let` or `const`
+   "globals":            { "URL": true, "URLSearchParams": true }, // things that are defined in Node that jshint doesn't think are.
+   // "predef":          [],         // whitelist of vars implicitly defined in the environment
+
+   // RELAXING OPTIONS
+   "asi":                false,      // would shut up about missing semicolons
+   "boss":               false,      // would shut up about use of assignments `=` where comparisons `===` are expected
+   "debug":              false,      // would shut up about the `debugger` statement
+   "elision":            false,      // would shut up about ES3 array elision
+   "eqnull":             true,       // would shut up about `== null` comparisons, often useful to check for `null` or `undefined`
+   "evil":               false,      // would shut up about the use of `eval`
+   "expr":               false,      // would shut up about use of expressions as statements
+   "funcscope":          false,      // would shut up about `var`-declared variables used outside blocks
+   "iterator":           false,      // would shut up about `__iterator__` property
+   "lastsemic":          false,      // would shut up about omitting the last semicolon
+   "loopfunc":           false,      // would shut up about the use of functions inside loops
+   "moz":                false,      // would shut up about the use of Mozilla JavaScript extensions
+   "notypeof":           false,      // would shut up about invalid `typeof` values
+   "noyield":            false,      // would shut up about generator functions without `yield` statements
+   "plusplus":           false,      // prohibit the use of `++` and `--`
+   "proto":              false,      // would shut up about the `__proto__` property
+   "scripturl":          false,      // would shut up about script-targeted URLs, e.g., `javascript:`
+   "supernew":           false,      // would shut up about certain weird `new` constructions
+   "validthis":          false,      // would shut up about the use of `this` in non-constructor functions
+   "withstmt":           false,      // if you enable shutting up about `with` statements, your code is bad and you should feel bad.
+
+   // ENVIRONMENTS
+   "browser":            false,      // modern browser globals
+   "devel":              false,      // poor man's browser debugging: `alert confirm console Debug opera prompt`
+   "node":               true,       // Node, the runtime environment
+
+   "browserify":         false,      // globals available when using Browserify
+   "couch":              false,      // CouchDB, the document database
+   "dojo":               false,      // Dojo, the toolkit
+   "jasmine":            false,      // Jasmine, the unit testing framework
+   "jquery":             false,      // jQuery, the library (`$` and `jQuery`)
+   "mocha":              false,      // Mocha, the unit testing framework
+   "module":             false,      // ES6 modules, enables strict mode
+   "mootools":           false,      // MooTools, the framework
+   "nonstandard":        false,      // nonstandard globals: `escape` and `unescape`
+   "phantom":            false,      // PhantomJS, the runtime environment
+   "prototypejs":        false,      // Prototype, the framework
+   "qunit":              false,      // QUnit, the unit testing framework
+   "rhino":              false,      // Rhino, the runtime environment
+   "shelljs":            false,      // ShellJS, the library
+   "typed":              false,      // typed array constructors
+   "worker":             false,      // Web Workers
+   "wsh":                false,      // Windows Script Host
+   "yui":                false       // YUI, the framework
+}

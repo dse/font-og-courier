@@ -1,0 +1,51 @@
+# Options for EditorConfig, a file format for specifying indentation
+# size, tabs vs. spaces, and other aspects of coding styles.  Most
+# editors and IDEs support EditorConfig, either out of the box or via
+# available plugins.  <https://editorconfig.org/>
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 3
+trim_trailing_whitespace = true
+
+# Markdown specifies indent_size = 4 for code blocks; if you mess with
+# this then you will have a bad time.
+[*.md]
+trim_trailing_whitespace = false
+indent_size = 4
+
+[{*.yml,*.yaml}]
+indent_size = 2
+
+# Yarn generates and edits these files with indent_size = 2.  Do not
+# taunt happy fun yarn.
+[yarn.lock]
+indent_size = 2
+
+# NPM generates and edits these files with indent_size = 4.  Do not
+# mess with npm.
+[{package.json,package-lock.json}]
+indent_size = 2
+
+# Composer generates and edits these files with indent_size = 4.  Do
+# not troll composer.
+[{composer.json,composer.lock}]
+indent_size = 4
+
+# This file format requires hard tabs.  You do **not** want to deviate
+# from 8-space tabs when dealing with archaic file formats that
+# literally predate disco.
+[Makefile]
+indent_style = tab
+indent_size = 8
+
+# You need indent_size = 4 to comply with PSR-12.  PSR-2, its
+# predecessor, also specifies indent_size = 4.
+[*.php]
+indent_size = 4
+indent_style = space
